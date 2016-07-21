@@ -1,0 +1,158 @@
+body{
+    font-family:"Microsoft YaHei","Hiragino Sans GB",STXihei,sans-serif,Arial,Helvetica,"宋体";
+    -webkit-font-smoothing: antialiased;
+}
+.wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 600px;
+}
+.title{
+    line-height: 50px;
+    height: 50px;
+    background-color: #686faf;
+    color: white;
+    font-size: 20px;
+    text-indent: 54px;
+    background: url('../Images/logo.png') no-repeat 17px;
+    background-size: 24px;
+    background-color: #686faf;
+    margin-bottom: 1px;
+    -webkit-font-smoothing: auto;
+}
+.topBar{
+    padding: 15px 30px;
+    /*
+    border-bottom: 1px solid #c5d3e5;
+    */
+    background-color: white;
+}
+.menuBg{
+    width: 215px;
+    background: -webkit-linear-gradient(#727fc4, #5086c6);
+    background: -o-linear-gradient(#727fc4, #5086c6);
+    background: -moz-linear-gradient(#727fc4, #5086c6);
+    background: linear-gradient(#727fc4, #5086c6);
+    color: white;
+}
+
+.menuBg li:hover,.menuBg li,.menuBg li .ant-menu-submenu-title:hover{
+    background: none;
+}
+.menuBg li span span,.menuBg li span span a,.menuBg li ul li a,.menuBg .ant-menu-item-selected{
+    font-size: 14px;
+    color: white;
+}
+.ant-menu.ant-menu-inline.ant-menu-sub{
+    background-color:  rgba(255,255,255,0.1);
+}
+.menuBg li:hover{
+    background-color:  rgba(255,255,255,0.1);
+    color: white;
+}
+.menuBg a:hover,.menuBg a:link,.menuBg a:visited,.menuBg a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.menuBg .custom_menu_item i{
+    margin-right: 18px;
+}
+.ant-menu-inline .ant-menu-item-selected, .ant-menu-inline .ant-menu-selected {
+    border-right: none;
+    background-color: none;
+}
+.menuBg i.anticon {
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+.menuBg .custom_menu_topitem i,
+.menuBg .custom_submenu i{
+    margin-right: 22px;
+}
+.menuBg li.custom_submenu_item:before{
+    content: '•';
+    display: block;
+    position: absolute;
+    margin-left: -28px;
+    color: white;
+    font-size: 24px;
+}
+.menuBg li.custom_submenu_item.ant-menu-item-selected:before{
+    color: #40588B;
+}
+.menuBg .custom_submenu_item a{
+    padding-left: 12px;
+}
+
+.main{
+    overflow-y: scroll;
+}
+.footer{
+    background-color: #dcdcdc;
+    line-height: 45px;
+    color: white;
+}
+
+
+/* ===== 常用工具样式 ===== */
+
+.marked-red {
+    color: #F54938;
+}
+
+/* ===== 常用页面结构 ===== */
+
+.subpage-header {
+    margin: 32px 0 0;
+}
+
+.subpage-header .subpage-title{
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.subpage-header .info-card{
+    margin-left: 20px;
+    line-height: 34px;
+    border: 1px solid #d8d8d8;
+    padding: 0 20px;
+}
+.subpage-header .info-card .break{
+    color: rgb(233, 233, 233);
+    padding: 0px 20px;
+}
+
+/* ===== Antd控件样式定制 ===== */
+
+#container .ant-select-selection--single,
+#container .ant-select,
+#container .ant-input,
+#container .ant-cascader-picker{
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+}
+
+#container .ant-select-selection,
+#container .ant-input{
+    border-radius: 2px;
+}
+
+#container th.text-center{
+    text-align: center;
+}
+
+#container .ant-table,
+#container .ant-table table{
+    border-radius: initial;
+}
+#container .ant-table td,
+#container .ant-table th{
+    padding: 13px 8px;
+    font-weight: normal;
+}

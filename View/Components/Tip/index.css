@@ -1,0 +1,17 @@
+#tip{ margin:-1px 0 0 0; position: fixed; z-index:99999; cursor: pointer; width: 16px; height: 16px;}
+#tip .tips{    color: #333;
+    width: 200px;
+    line-height: 22px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    background: #fff;
+    padding: 8px;
+    position: absolute;
+    top: 25px;
+    display: none;
+    z-index: 100; color: #666;
+ }
+#tip .icon{position: absolute; top: -15px;}
+#tip:hover .tips{
+	display: block;
+}
